@@ -363,6 +363,9 @@ app.add_middleware(
 )
 
 # text2Image = Text2Image()
+@app.get("/")
+def text2image_api():
+    return ""
 @app.get("/ping")
 def text2image_api():
     return "pong"
@@ -383,4 +386,4 @@ def text2image_api():
 #     os.remove(filePath)
 #     return {"deleted":1}
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=80)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
