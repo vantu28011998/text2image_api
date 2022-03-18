@@ -364,10 +364,10 @@ app.add_middleware(
 
 # text2Image = Text2Image()
 @app.get("/")
-def text2image_api():
+def root_api():
     return ""
 @app.get("/ping")
-def text2image_api():
+def ping():
     return "pong"
 # @app.get("/text/{text}")
 # async def text2image_api(text):
