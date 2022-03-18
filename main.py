@@ -386,5 +386,5 @@ def ping():
 #     filePath = f'./image/{image}.png'
 #     os.remove(filePath)
 #     return {"deleted":1}
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=5000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=5000)
