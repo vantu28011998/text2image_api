@@ -1,5 +1,4 @@
-from concurrent.futures.thread import _worker
-import uvicorn
+# import uvicorn
 from fastapi import FastAPI
 # import string
 # import torch
